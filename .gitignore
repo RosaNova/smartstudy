@@ -1,0 +1,18 @@
+# === BACKEND (PHP) ===
+/server/vendor/
+server/.env
+server/*.log
+server/config/react0auth-46094-firebase-adminsdk-fbsvc-a6900df230.json
+
+# Composer cache
+composer.lock
+
+# === FRONTEND (Node.js, React/Vue) ===
+/client/node_modules/
+client/.env
+# === SYSTEM / IDE FILES ===
+.vscode/
+.idea/
+*.log
+*.tmp
+.DS_Store

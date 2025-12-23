@@ -1,0 +1,48 @@
+{
+   "TimeManagement" : [
+     {
+       "title": "Time Countdown",
+       "icon": "🕓",
+       "link" : "/timercountdown"
+     },
+     {
+       "title": "Task Scheduler",
+       "icon": "🗓️",
+        "link" : "/timercountdown"
+     }
+   ],
+   "IdeaManagement": [
+      {
+       "title": "Idea Notes",
+       "icon": "🗒️",
+        "link" : "/timercountdown"
+     },
+     {
+       "title": "Mind Map",
+       "icon": "🧠",
+        "link" : "/timercountdown"
+     },
+     {
+       "title": "AI Brainstormer",
+       "icon": "🧠",
+        "link" : "/timercountdown"
+     }
+  ],
+  "StudyResource" : [
+   {
+       "title": "Study Library",
+       "icon": "📚",
+        "link" : "/timercountdown"
+     },
+     {
+       "title": "Bookmark",
+       "icon": "📌",
+        "link" : "/timercountdown"
+     },
+     {
+       "title": "AI Quiz Generator",
+       "icon": "🤖",
+        "link" : "/timercountdown"
+     }
+  ]
+ }

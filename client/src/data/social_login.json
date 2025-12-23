@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Sign in with Google",
+    "icon": "FaGoogle",
+    "type": "Google"
+  },
+  {
+    "id": 2,
+    "type": "Facebook",
+    "name": "Sign in with Facebook",
+    "icon": "FaFacebook"
+  },
+  {
+    "id": 3,
+    "name": "Sign in with Instagram",
+    "icon": "FaInstagram",
+    "type": "Instagram"
+  }
+]
