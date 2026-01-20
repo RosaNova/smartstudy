@@ -1,117 +1,82 @@
 {
    "TimeManagement": [
       {
-         "title": "Pomodoro timer",
+         "title": "Pomodoro",
          "icon": "⏳",
          "link": "/timercountdown"
       },
       {
-         "title": "Task Scheduler",
+         "title": "Tasks",
          "icon": "🗓️",
-         "link": "/timercountdown"
+         "link": "/tasks"
       },
       {
-         "title": "Goal Setting",
+         "title": "Goals",
          "icon": "🎯",
-         "link": "/timercountdown"
+         "link": "/goals"
       },
       {
-         "title": "Progress Tracking",
+         "title": "Progress",
          "icon": "📊",
-         "link": "/timercountdown"
-      },
-      {
-         "title": "Motivational Quotes",
-         "icon": "💡",
-         "link": "/timercountdown"
-      },
-      {
-         "title": "Weekly Review",
-         "icon": "🔄",
-         "link": "/timercountdown"
+         "link": "/progress"
       }
    ],
    "IdeaManagement": [
       {
-         "title": "Idea Notes",
+         "title": "Idea Journal",
          "icon": "🗒️",
-         "link": "/timercountdown"
+         "link": "/ideas"
       },
       {
-         "title": "Mindset",
-         "icon": "🧭",
-         "link": "/timercountdown"
-      },
-      {
-         "title": "AI Brainstormer",
+         "title": "AI Brainstorm",
          "icon": "🧠",
-         "link": "/timercountdown"
+         "link": "/ai-brainstorm"
+      },
+      {
+         "title": "Inspire",
+         "icon": "💡",
+         "link": "/inspire"
       }
    ],
    "StudyResource": [
       {
-         "title": "Study Library",
+         "title": "Library",
          "icon": "📚",
-         "link": "/timercountdown"
+         "link": "/resources"
       },
       {
-         "title": "Bookmark",
-         "icon": "📌",
-         "link": "/timercountdown"
-      },
-      {
-         "title": "Progress Tracker",
-         "icon": "📈",
-         "link": "/timercountdown"
-      },
-      {
-         "title": "AI Study Assistant",
+         "title": "AI Tutor",
          "icon": "🤖",
-         "link": "/timercountdown"
+         "link": "/ai-tutor"
       },
       {
-         "title": "Course RoadMap",
+         "title": "Roadmap",
          "icon": "📝",
-         "link": "/timercountdown"
+         "link": "/roadmap"
       }
    ],
-   "Collaboration Tools" : [
+   "Collaboration Tools": [
       {
-         "title": "Study Groups",
+         "title": "Team Projects",
          "icon": "👥",
-         "link": "/timercountdown"
+         "link": "/team-projects"
       },
       {
-         "title": "Project Management",
-         "icon": "📊",
-         "link": "/timercountdown"
-      },
-      {
-         "title": "Video Conferencing",
-         "icon": "📹",
-         "link": "/timercountdown"
-      },
-      {
-         "title": "Discussion Forums",
+         "title": "Forum",
          "icon": "💬",
-         "link": "/timercountdown"
+         "link": "/forum"
       }
    ],
-   "Career & Skills" : [
+   "Career & Skills": [
       {
-         "title": "Skill Tracker",
+         "title": "Skills",
          "icon": "📈",
-         "link": "/timercountdown"
+         "link": "/skills"
       },
       {
-         "title": "Find Job Opportunities",
+         "title": "Jobs",
          "icon": "🔍",
-         "link": "/timercountdown"
-      },
-      {
-         "title": "Soft Skills Training",
-         "icon": "🗣️",
-         "link": "/timercountdown"
+         "link": "/jobs"
       }
    ]
 }
