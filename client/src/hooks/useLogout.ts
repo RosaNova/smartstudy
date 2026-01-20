@@ -1,7 +1,7 @@
 import React from 'react'
 import { signOut } from "firebase/auth";
 import Cookies from "js-cookie";
-import { auth } from "@/firebase/firebaseConfig";
+// import { auth } from "@/firebase/firebaseConfig";
 import { useNavigate } from 'react-router-dom';
 
 export const useLogout = () => {
