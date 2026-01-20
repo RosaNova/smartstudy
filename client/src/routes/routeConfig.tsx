@@ -1,5 +1,5 @@
 import PersonalInfoForm from "@/components/Personal-Information";
-import HomePage from "@/pages/HomePage";
+import HomePage from "@/pages";
 import TimeCountdown from "@/pages/TimeCountdown";
 import LoginPage from "@/pages/auth/LoginPage";
 import RegisterPage from "@/pages/auth/RegisterPage";
@@ -15,7 +15,7 @@ export const routes: RouteType[] = [
   {
     path: "/",
     element: HomePage,
-    protected: true,
+    protected: false,
   },
   {
     path: "/login",

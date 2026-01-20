@@ -15,9 +15,9 @@ import WidgetDemo from '@/components/clock-02';
 const HomePage = () => {
    const {logout} = useLogout();
   return (
-    <div className="fruid-container w-full  pb-20 bg-cream ">
-        <div className="home-container pt-15 w-[80%] mx-auto">
-          <div className="logo flex w-full  justify-between items-start pb-3">
+    <div className="fruid-container w-full pb-20 bg-cream ">
+        <div className="home-container pt-15  w-[80%] mx-auto">
+          <div className="logo relative   flex w-full justify-between items-start pb-3">
              <div className='leftsection'>
                 <h1 className='text-6xl pb-5  font-[1000] font-righteous text-orange'>StudyVerse</h1>
                 <p className="tagline text-orange">Organize your study. Manage your ideas. Boost productivity.</p>
@@ -51,6 +51,9 @@ const HomePage = () => {
               <Categorygrid title={"Time Management⏰"} AllItem={AllCategory.TimeManagement}  />
               <Categorygrid title={"Idea Management💡"} AllItem={AllCategory.IdeaManagement}  />
               <Categorygrid title={"Study Resources📚"} AllItem={AllCategory.StudyResource}  />
+              <Categorygrid title={"Collaboration Tools🤝"} AllItem={AllCategory['Collaboration Tools']}  />
+              <Categorygrid title={"Career & Skills💼"} AllItem={AllCategory['Career & Skills']}  />
+              
          </div> 
           {/* Footer section   */}
          <Footer/>

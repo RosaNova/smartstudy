@@ -1,5 +1,3 @@
-"use client";
-
 import * as React from "react";
 import {
   Widget,
@@ -15,19 +13,18 @@ export default function WidgetDemo() {
       setTime(new Date());
     }, 1000);
 
-    return () => {
-      clearInterval(timer);
-    };
+    return () => clearInterval(timer);
   }, []);
 
-  const formatTime = (num: number) => String(num).padStart(2, "0");
+  const format = (num: number) => String(num).padStart(2, "0");
 
-  const hours = time.getHours() % 12;
-  const minutes = formatTime(time.getMinutes());
-  const seconds = formatTime(time.getSeconds());
+  const rawHours = time.getHours();       // 0–23
+  const hours = rawHours % 12 || 12;      // 1–12
+  const minutes = format(time.getMinutes());
+  const seconds = format(time.getSeconds());
 
   return (
-    <Widget className="border-0  p-0 m-0 h-[50px] bg-transparent static text-orange shadow-none">
+    <Widget className="relative p-0 m-0 h-[50px] bg-transparent text-orange shadow-none">
       <WidgetContent className="flex-col gap-4">
         <WidgetTitle className="text-7xl font-poppins font-bold tracking-widest">
           {hours}:{minutes}:{seconds}

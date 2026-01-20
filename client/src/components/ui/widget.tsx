@@ -3,13 +3,13 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const widgetVariants = cva(
-  "relative flex flex-col border-2 whitespace-nowrap shadow-md dark:shadow-secondary/50 rounded-3xl",
+  "flex flex-col  whitespace-nowrap shadow-md dark:shadow-secondary/50 rounded-3xl",
   {
     variants: {
       size: {
-        sm: "size-48",
-        md: "w-96 h-48",
-        lg: "size-96",
+        sm: "",
+        md: "",
+        lg: "",
       },
       design: {
         default: "p-6",
