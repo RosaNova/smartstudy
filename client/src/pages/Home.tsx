@@ -24,7 +24,7 @@ const HomePage = () => {
             </div>
              <WidgetDemo/>
           </div>      
-           <div className='pb-30'>
+           <div className='pb-10'>
                   <ul className='flex gap-4 jus items-center'>
                      <li><button type='button' className='tooltip group cursor-pointer'><AiTwotoneSetting size={25} className='text-orange' />
                       <div className="dropdown group-hover:visible invisible absolute z-[1000] w-[200px]  top-8 left-[-20px]  bg-orange rounded-[15px] p-2 ">

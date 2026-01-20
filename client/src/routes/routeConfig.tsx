@@ -1,5 +1,5 @@
 import PersonalInfoForm from "@/components/Personal-Information";
-import HomePage from "@/pages";
+import HomePage from "@/pages/Home";
 import TimeCountdown from "@/pages/TimeCountdown";
 import LoginPage from "@/pages/auth/LoginPage";
 import RegisterPage from "@/pages/auth/RegisterPage";
@@ -33,9 +33,9 @@ export const routes: RouteType[] = [
     protected : true
   },
   {
-    path: "/timercountdown",
+    path: "/pomodoro",
     element : TimeCountdown,
-    protected : true
+    protected : false
   }
 ];
 
