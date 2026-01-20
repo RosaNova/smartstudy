@@ -1,6 +1,6 @@
 import React from 'react'
-import { signInWithPopup} from "firebase/auth";
-import { auth , googleProvider , facebookProvider } from '@/firebase/firebaseConfig';
+// import { signInWithPopup} from "firebase/auth";
+// import { auth , googleProvider , facebookProvider } from '@/firebase/firebaseConfig';
 import { FaGoogle, FaFacebook, FaInstagram } from "react-icons/fa";
 import SocialLogin from '../../data/social_login.json';
 
@@ -14,23 +14,23 @@ const SocialAuthentication = () => {
   const handleSocialLogin = async (providerName: String)=>{
      try {
       let provider;
-      switch(providerName){
-         case "Facebook":{
-            provider = facebookProvider;
-          break;
-         }
-         case "Google":{
-            provider = googleProvider;
-          break;
-         }
-         default : {
-          alert("Provider not implement yet!");
-          return;
-         }
-      }
+      // switch(providerName){
+      //    case "Facebook":{
+      //       provider = facebookProvider;
+      //     break;
+      //    }
+      //    case "Google":{
+      //       provider = googleProvider;
+      //     break;
+      //    }
+      //    default : {
+      //     alert("Provider not implement yet!");
+      //     return;
+      //    }
+      // }
 
-      const result = await signInWithPopup(auth, provider);
-      const user = result.user;
+      // const result = await signInWithPopup(auth, provider);
+      // const user = result.user;
      
      } catch (error : any) {
       console.error("❌ Social login failed:", error.message);
