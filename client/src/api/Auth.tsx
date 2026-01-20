@@ -1,5 +1,5 @@
 import React from 'react'
-import API from './Index';
+import API from './api_endpoint';
 import { UserRegister } from '@/types/user';
 import { UserLogin } from '@/types/user';
 
