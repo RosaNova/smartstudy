@@ -1,5 +1,3 @@
-/// <reference types="vite/client" />
-
 import { initializeApp } from "firebase/app";
 import { getAuth  , GoogleAuthProvider , FacebookAuthProvider} from "firebase/auth";
 
